@@ -1,0 +1,154 @@
+#font1 {	font-family: 'Andada Pro', serif; }
+#font2 {	font-family: 'Gowun Batang', serif; }
+.wrap{ width: 1500px; height: 4000px; background-color: white;}
+.container {
+	display: flex; width: 100%; height: 3950px;
+}
+.left {
+	position: fixed;
+	width: 15%; height: 100%;
+	margin-top: 50px;
+/*	margin-left: auto;
+	margin-right: auto; */
+/*	background-color: #E18048;*/
+}
+.back-img {
+	z-index:2;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcTB0rtxazGAoxvxUD56E3Ez1BFd93b-wgbQ&usqp=CAU");
+	background-repeat: repeat-y;
+}
+.right {
+	width: 85%; height: 100%;
+	margin-top: 50px;
+	margin-left: 15%;
+}
+.right .section1 {
+	width:100%;
+	height:3.5%;
+}
+.right .section1 p{ 
+	text-align: center;
+	font-size: 36pt; 
+}
+.right .section2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 45px;
+	background-color: black;
+}
+.section2 .tab {
+	width: 100%;
+	height: 100%;
+	
+}
+.section2 .tab tr {	
+	display: flex;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.section2 .tab tr td {
+	width: 25%;
+	height: 40px;
+
+}
+.section2 .tab tr td:hover{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcTB0rtxazGAoxvxUD56E3Ez1BFd93b-wgbQ&usqp=CAU");
+}
+.section2 .tab tr td a{
+	color: white;
+	font-size: 13pt;
+	
+}
+
+.right .section3 {
+	width:100%;
+	height: 13%;
+	margin-left: 10%;
+	display: flex;
+}
+a { text-decoration: none;}
+a.products img{
+	width: 200px; height: 255px;
+	margin: 10px 30px 20px 30px;	
+}
+.img1 {
+	display: block;
+}
+a.products:hover .img1{
+	display: none;
+}
+.img2{
+	display: none;
+}
+a.products:hover .img2{
+	display: block;
+}
+.products .first {
+	font-size: 10pt;
+	text-align: center;
+	color: black;
+}
+.products .second {
+	font-size: 13pt;
+	text-align: center;
+	color: black;
+}
+.products .third{
+	font-size: 11pt;
+	text-align: center;
+	text-decoration: line-through;
+	color: black;	
+}
+#sale {
+	font-size: 15pt;
+	color: green;
+}
+
+div hr { 
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 2px;
+	background-color: black;
+	
+}
+div ul { 
+	list-style: none;
+	margin-top: 50%;
+	}
+
+div ul li{
+	text-align: center;
+	margin: 0 0 20%;
+	padding: 0% 15% 0% 0%;
+}
+div ul li a{
+	color: white;
+	font-size: 12pt;
+}
+
+nav {
+	position: fixed; 
+	width:1500px; height:50px; 
+	background-color: black;
+}
+nav ul { 
+	z-index: 1;
+	list-style: none; display: flex;
+	padding: 0 1200px;	
+}
+nav ul li{
+	text-align: center; 
+	padding: 0 0 0 50px;
+}
+nav ul li a{
+	color: white;
+	font-size: 10pt;
+	display: flex;
+}
+nav ul li a:hover{
+	color: #41FF3A;
+}
